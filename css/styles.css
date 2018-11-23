@@ -1,3 +1,22 @@
-header {
-  background: pink !important;
-}
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
+
+
+/* selector de etiqueta header - section - article - etc */
+/* header {
+  background: pink;
+  color: red;
+} */
+
+/* selector descendente */
+/* body header div nav ol li a {
+} */
+
+/* selector de clase . */
+/* .link */
+
+/* selector de id # */
+/* #portafolio */
