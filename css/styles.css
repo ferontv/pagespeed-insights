@@ -28,6 +28,7 @@ valores */
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
 }
 
 h1,
@@ -64,6 +65,10 @@ h1 strong {
   background-position-x: right;
 }
 
+.portfolio {
+  background-color: #fafafa;
+}
+
 .project {
   /* border-top: tamaño tipo estilo; */
   /* border-top: 10px solid red;
@@ -80,10 +85,13 @@ h1 strong {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px; */
+  margin: 10px;
   margin-bottom: 15px;
   /* margin-right
   margin-left
   margin-top */
+  padding: 20px;
+  background: white;
 }
 
 .project-details {
