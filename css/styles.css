@@ -118,6 +118,8 @@ h1 strong {
   /* flex-wrap: nowrap; */
   flex-wrap: wrap;
   /* flex-direction: column; */
+
+  /* justify-content: flex-start - flex-end - center - space-around - space-between - space-evenly; */
 }
 
 .box {
