@@ -117,9 +117,10 @@ h1 strong {
   display: flex;
   /* flex-wrap: nowrap; */
   flex-wrap: wrap;
-  /* flex-direction: column; */
+  /* flex-direction: row; */
 
-  /* justify-content: flex-start - flex-end - center - space-around - space-between - space-evenly; */
+  /* horizontal justify-content: flex-start - flex-end - center - space-around - space-between - space-evenly; */
+  /* vertical align-items: flex-start - flex-end - center - start - end - stretch; */
 }
 
 .box {
@@ -128,4 +129,5 @@ h1 strong {
   margin: 5px;
   border: 1px solid red;
   flex-shrink: 0;
+  /* align-self: flex-start - flex-end - center; */
 }
