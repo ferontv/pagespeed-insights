@@ -1,0 +1,46 @@
+.section {
+  height: 200px;
+  background: lightgray;
+  margin: 10px 0;
+  border: 1px solid red;
+  position: relative;
+}
+
+p { 
+  font-size: 3em;
+  background: red;
+  display: inline-block;
+  position: relative;
+}
+
+p span {
+  /* position: fixed; */
+  /* right: -200px; */
+  /* background: blue; */
+  right: 0;
+  top: 0;
+}
+
+.mundo {
+  background: pink;
+  z-index: 2;
+}
+.responsive {
+  background: yellow;
+  z-index: 1;
+}
+
+/* static
+relative
+absolute
+fixed
+sticky */
+
+/* z-index */
+/* top bottom left right */
+.sticky {
+  position: sticky;
+  top: 0;
+  background: rgba(0, 0, 0, .5);
+  z-index: 3;
+}
