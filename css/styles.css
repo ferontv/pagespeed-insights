@@ -431,7 +431,10 @@ max-width = hasta
 
 /* desktop first que empieces desde el MQ más grande */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
+  .event-list-title {
+    margin-left: 0;
+  } 
   .portfolio {
     padding: 0;
   }
@@ -486,6 +489,11 @@ max-width = hasta
 }
 
 @media screen and (max-width: 767px) {
+  h2 {
+    font-size: 1.2em;
+    margin: .5em 0;
+  }
+  
   .burger-button {
     display: block;
   }
@@ -559,7 +567,7 @@ max-width = hasta
     font-size: 1em;
   }
   .project-description {
-    font-size: .8em;
+    font-size: 1em;
   }
 
   .event {
@@ -578,7 +586,7 @@ max-width = hasta
     font-size: 1.5em;
   }
   .project-details {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .event-detail {
@@ -605,6 +613,11 @@ max-width = hasta
     display: block;
     text-align: center;
     border: 1px solid transparent;
+  }
+  .social-link {
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
   }
 }
 
